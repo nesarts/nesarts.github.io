@@ -30,13 +30,13 @@ body {
     text-align: center;
 }
 
-.container ul {
-    text-align: center;
-}
 
-.our.mission {
+
+.our-mission {
     background-color: #F06925;
     border-radius: 4px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 /* Start Menu Primer*/
@@ -232,15 +232,32 @@ body {
 }
 .menu-sekunder-one {
     color: #F06925;
-    width: 30%;
-}
-.menu-sekunder-two {
-    color: #F06925
-    width: 30%;
-}
-.menu-sekunder-three {
-    color: #F06925
     width: 40%;
 }
+.menu-sekunder-two {
+    color: #F06925;
+    width: 40%;
+}
+.menu-sekunder-three {
+    color: #F06925;
+    width: 20%;
+}
+.footer ul li a {
+    color: white;
+}
+.footer p {
+    color: white;
+}
+.footer p a {
+    color: white;
+}
+
 /* End Footer Box*/
+
+.client img {
+    margin: 20px;
+}
+
+
+
 
