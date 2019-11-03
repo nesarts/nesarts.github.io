@@ -1,0 +1,263 @@
+/* Start Body */
+body {
+    color:#213040 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-grey {
+    background-color: #929497 ;
+}
+.bg-lightgrey {
+    background-color: #E6E7E8 ;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/* End Container */
+
+.header-center {
+    text-align: center;
+}
+
+
+
+.our-mission {
+    background-color: #F06925;
+    border-radius: 4px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Start Menu Primer*/
+.menu-primer ul {
+    background-color: #F06925;
+    border-radius: 4px;
+}
+.menu-primer li {
+    /* border-right: 1px solid white; */
+    display: inline-block;
+    }
+.menu-primer a{
+    color: white;
+    font-size: 20px;
+    padding: 10px 50px;
+    letter-spacing: 1px;
+}
+.menu-primer a:hover {
+    background-color: #E6E7E8;
+    color: #929497 ;
+}
+/* End Menu Primer*/
+
+
+/* Start Product Pictures */
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1570 {
+  font-family: 'Poppins', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 300px;
+  max-width: 320px;
+  width: 100%;
+  color: #213040;
+  font-size: 16px;
+  line-height: 1.2em;
+  text-align: center;
+  font-weight: 300;
+}
+
+.snip1570 *,
+.snip1570 *:before,
+.snip1570 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.65s ease;
+  transition: all 0.65s ease;
+}
+
+.snip1570:after {
+  -webkit-transition: all 0.65s ease;
+  transition: all 0.65s ease;
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  bottom: -478px;
+  right: -478px;
+  border-radius: 50%;
+  border: 500px solid transparent;
+  border-bottom-color: #000000;
+  border-right-color: #000000;
+  content: '';
+  opacity: 0.8;
+}
+
+.snip1570 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1570 i {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  border-radius: 50%;
+  color: #000000;
+  display: block;
+  z-index: 10;
+}
+
+.snip1570 i:before,
+.snip1570 i:after {
+  border-radius: 50%;
+}
+
+.snip1570 i:before {
+  color: #ddd;
+  background-color: #fff;
+  font-size: 37.64705882px;
+  line-height: 64px;
+  text-align: center;
+  width: 64px;
+}
+
+.snip1570 i:after {
+  position: absolute;
+  top: -14px;
+  bottom: -14px;
+  left: -14px;
+  right: -14px;
+  border: 15px solid #ddd;
+  border-bottom-color: #F06925;
+  border-right-color: #F06925;
+  content: '';
+  z-index: -2;
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.snip1570 i:hover {
+  background-color: #D2B17F;
+  cursor: pointer;
+}
+
+.snip1570 h3 {
+  top: 5px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0;
+  opacity: 0;
+  padding: 10px 15px;
+  position: absolute;
+  left: 0;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+.snip1570 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+
+.snip1570:hover:after,
+.snip1570.hover:after {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.snip1570:hover img,
+.snip1570.hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.snip1570:hover i:before,
+.snip1570.hover i:before {
+  color: #2980b9;
+}
+
+.snip1570:hover i:after,
+.snip1570.hover i:after {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.snip1570:hover h3,
+.snip1570.hover h3 {
+  opacity: 1;
+}
+/* End Product Pictures */
+
+/* Start Footer Box*/
+.footer {
+    background-color: #213040;
+    border-bottom: 1px #213040;
+    border-top: 1px #213040;
+    overflow: auto;
+    padding: 1opx 0;
+    }
+.footer h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.footer ul {
+    padding: 0
+}
+.footer li {
+    list-style: disc;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+
+}
+.menu-sekunder-one {
+    color: #F06925;
+    width: 40%;
+}
+.menu-sekunder-two {
+    color: #F06925;
+    width: 40%;
+}
+.menu-sekunder-three {
+    color: #F06925;
+    width: 20%;
+}
+.footer ul li a {
+    color: white;
+}
+.footer p {
+    color: white;
+}
+.footer p a {
+    color: white;
+}
+
+/* End Footer Box*/
+
+.client img {
+    margin: 20px;
+}
+
+
+
+
