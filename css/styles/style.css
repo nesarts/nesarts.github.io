@@ -43,6 +43,7 @@ body {
 .menu-primer ul {
     background-color: #F06925;
     border-radius: 4px;
+    margin: center;
 }
 .menu-primer li {
     /* border-right: 1px solid white; */
